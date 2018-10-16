@@ -1,5 +1,6 @@
 
 # AppDynamics IoT Java SDK
+[![Build Status](https://travis-ci.com/lbk003/iot-java-sdk.png?branch=master)](https://travis-ci.com/lbk003/iot-java-sdk)
 
 ## Table of Contents
 
