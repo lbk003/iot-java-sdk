@@ -36,9 +36,10 @@ public class DeviceInfoTest {
 
     @Test
     public void testDefaultContextNull() throws Exception {
-        DeviceInfo deviceInfo = DeviceInfo.builder(null, null).build();
-        assertNull(deviceInfo.deviceType);
-        assertNull(deviceInfo.deviceId);
+	fail("Exception not thrown");
+        //DeviceInfo deviceInfo = DeviceInfo.builder(null, null).build();
+        //assertNull(deviceInfo.deviceType);
+        //assertNull(deviceInfo.deviceId);
     }
 
     @Test
