@@ -51,7 +51,7 @@ public class DeviceInfo {
         this.deviceId = deviceId;
     }
 
-    void toJson(JsonWriter writer); throws IOException {
+    void toJson(JsonWriter writer) throws IOException {
         writer.name(DEVICE_INFO);
         {
             writer.beginObject();
